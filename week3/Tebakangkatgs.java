@@ -19,7 +19,7 @@ class Tebakangkatgs//file sesuai dengan nama class
         boolean tebakanBenar = false; // Untuk menentukan kapan loop berhenti
         
         // Loop sampai tebakan benar
-        while (!tebakanBenar)
+        while (!tebakanBenar)//Secara keseluruhan, perintah ini berarti: "Lakukan perulangan selama tebakanBenar bernilai false". Dengan kata lain, blok kode di dalam while akan terus berjalan sampai kondisi tebakanBenar menjadi true.
         {
             System.out.print("Masukkan angka : ");
             int tebakan = s.nextInt();
